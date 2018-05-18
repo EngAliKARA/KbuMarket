@@ -46,7 +46,7 @@ class Login extends  CI_Controller
     }
     public function LogOut() {
         $this->session->unset_userdata('Logged_In');
-        $this->load->view('Admin/Login','Refresh');
+        $this->load->view('Admin/login','Refresh');
     }
 
 }
